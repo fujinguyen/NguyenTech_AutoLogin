@@ -1,6 +1,6 @@
 <%@ Control Language="vb" Inherits="NguyenTech.Modules.AutoLogin.View" AutoEventWireup="false" Explicit="True" CodeBehind="View.ascx.vb" %>
 
-<asp:Panel ID="pnlAutoLogin" runat="server" Visible="true">
+<asp:Panel ID="pnlAutoLogin" runat="server" Visible="true">  
 
 
     <div class="dnnForm dnnLoginService dnnClear">
