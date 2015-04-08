@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblSetupNote.Text" xml:space="preserve">
+    <value>Setup notes</value>
+  </data>
+  <data name="lblSetupNote.Help" xml:space="preserve">
+    <value>This field can be used to enter setup notes.</value>
+  </data>
+  <data name="ControlTitle_settings.Text" xml:space="preserve">
+    <value>Auto Login Settings</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>About AutoSignIn Settings</value>
+  </data>
+  <data name="lblLastUpdate.Help" xml:space="preserve">
+    <value>Display module last update by and date/time.</value>
+  </data>
+  <data name="lblLastUpdate.Text" xml:space="preserve">
+    <value>Last update</value>
+  </data>
+  <data name="plDefaultUsername.Help" xml:space="preserve">
+    <value>Select a default account to login </value>
+  </data>
+  <data name="plDefaultUsername.Text" xml:space="preserve">
+    <value>Default login account</value>
+  </data>
+  <data name="plRolename.Help" xml:space="preserve">
+    <value>Select role name in which the username will be available to support auto login.</value>
+  </data>
+  <data name="plRolename.Text" xml:space="preserve">
+    <value>Authorized role in which the users can auto login</value>
+  </data>
+  <data name="plAccountSwitchEnable.Help" xml:space="preserve">
+    <value>Check to enable switching of login accounts.  If not checked, only the default username can be used to login.  Notice that the "Is Module Visible" must be checked in order to select account to switch.  By default, this field is checked.</value>
+  </data>
+  <data name="plAccountSwitchEnable.Text" xml:space="preserve">
+    <value>Enable switching login account</value>
+  </data>
+  <data name="plForceLoginDefaultEnable.Help" xml:space="preserve">
+    <value>If checked, the login user will be switched to the Default login account.  Notice force user switch is only applied to non Admin/Host users.  By default, this field is not checked.</value>
+  </data>
+  <data name="plForceLoginDefaultEnable.Text" xml:space="preserve">
+    <value>Force authenticated user to switch to Default login account</value>
+  </data>
+  <data name="plAutoLoginDefaultEnable.Help" xml:space="preserve">
+    <value>Check to enable auto login of default account when module first load.  If not check, user will be presented with a pick list of users in the selected role.  AutoLogin is disabled if the module is placed on the homepage of the portal.  This way, the Login link will be available to login as different user.  By default, this field is checked.</value>
+  </data>
+  <data name="plAutoLoginDefaultEnable.Text" xml:space="preserve">
+    <value>Enable auto login using Default login account for un-authenticated user</value>
+  </data>
+  <data name="plIsModuleVisible.Help" xml:space="preserve">
+    <value>Check to hide the module from login user (except for Admin or Host).  By default, this field is checked.</value>
+  </data>
+  <data name="plIsModuleVisible.Text" xml:space="preserve">
+    <value>Is module visible to authenticated user</value>
+  </data>
+  <data name="plUrlLoginEnable.Help" xml:space="preserve">
+    <value>If checked, the module supports login using username specify in the URL.  An example of the URL variable format is "username=jdoe".  The username must belong to authorized role in this module setting.  By default, this field is not checked.</value>
+  </data>
+  <data name="plUrlLoginEnable.Text" xml:space="preserve">
+    <value>Enable login using username in URL</value>
+  </data>
+  <data name="SelectRole.Text" xml:space="preserve">
+    <value>-- Select Role --</value>
+  </data>
+  <data name="SelectUser.Text" xml:space="preserve">
+    <value>-- Select User --</value>
+  </data>
+  <data name="rfvRolename.Text" xml:space="preserve">
+    <value>Role is required.</value>
+  </data>
+  <data name="rfvUsername.Text" xml:space="preserve">
+    <value>Username is required.</value>
+  </data>
+  <data name="plProfileButtonEnable.Help" xml:space="preserve">
+    <value>Check to make Profile Button visible.  By default, this field is not checked.</value>
+  </data>
+  <data name="plProfileButtonEnable.Text" xml:space="preserve">
+    <value>Profile button visible</value>
+  </data>
+  <data name="IPRestrictionModeAllowed.Text" xml:space="preserve">
+    <value>Allowed</value>
+  </data>
+  <data name="IPRestrictionModeDenied.Text" xml:space="preserve">
+    <value>Denied</value>
+  </data>
+  <data name="plIPAddressList.Help" xml:space="preserve">
+    <value>Enter the pattern that will be used to compare with user ip addresses.  For example, enter 65.66.62 to allow all ip addresses such as 65.66.62.1-65.66.62.255 to access.  IP restriction does not apply to localhost or DNN server IP address.</value>
+  </data>
+  <data name="plIPAddressList.Text" xml:space="preserve">
+    <value>IP address pattern (separated by comma)</value>
+  </data>
+  <data name="plIPRestrictionEnable.Help" xml:space="preserve">
+    <value>Check to enable IP restriction.  By default, this field is not checked.</value>
+  </data>
+  <data name="plIPRestrictionEnable.Text" xml:space="preserve">
+    <value>IP restriction enable</value>
+  </data>
+  <data name="plIPRestrictionMode.Help" xml:space="preserve">
+    <value>Select mode Allowed ro Denied.  It the user ip address is matched with the pattern, the module can allow or deny AutoLogin.  By default, this field is "Allowed".</value>
+  </data>
+  <data name="plIPRestrictionMode.Text" xml:space="preserve">
+    <value>IP restriction mode</value>
+  </data>
+  <data name="plIPDisplayEnable.Help" xml:space="preserve">
+    <value>Check to show client IP address. By default, this field is not checked.</value>
+  </data>
+  <data name="plIPDisplayEnable.Text" xml:space="preserve">
+    <value>Show Client IP</value>
+  </data>
+</root>
