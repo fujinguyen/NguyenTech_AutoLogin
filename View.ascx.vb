@@ -1,5 +1,5 @@
 '
-' Work Control LLC - http://www.nguyentech.com
+' Nguyen Tech LLC - http://www.nguyentech.com
 ' Copyright (c) 2008
 '
 ' THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
